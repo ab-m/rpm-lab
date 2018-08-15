@@ -35,7 +35,7 @@ if it wasn't just a dummy package it would. :)
 Now we have a basic spec file which we can build with rpmbuild, but first we need to set up a set of directories where rpmbuild will find things. Run the following command to create the directory structure:
 
 ```shell
-mkdir -p ~/rpmbuild/{BUILD, BUILDROOT, RPMS, SRPMS, SOURCES}
+mkdir -p ~/rpmbuild/{BUILD,BUILDROOT,RPMS,SRPMS,SOURCES}
 ```
 
 You can now copy your spec file in to `~/rpmbuild/SOURCES` and run rpmbuild:
